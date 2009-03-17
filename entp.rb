@@ -26,7 +26,12 @@ initializer "concerns.rb" do
   puts '  end'
   puts 'end'
 end
- 
+
+file "config/routes.rb", <<-CODE
+ActionController::Routing::Routes.draw do |map|
+end
+CODE
+
 generate 'authenticated', 'user session --aasm'
  
 run 'rm public/index.html'
