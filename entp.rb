@@ -7,6 +7,7 @@ plugin 'rr', :git => 'git://github.com/btakita/rr.git'
 plugin 'machinist', :git => 'git://github.com/notahat/machinist.git'
 plugin 'storyteller', :git => 'git://github.com/foca/storyteller.git'
 plugin 'webrat', :git => 'git://github.com/brynary/webrat.git'
+plugin 'delayed_job', :git => 'git://github.com/tobi/delayed_job.git'
  
 plugin 'app_bootstrap', :git => 'git://github.com/technoweenie/app_bootstrap.git'
 plugin 'restful-authentication', :git => 'git://github.com/technoweenie/restful-authentication.git'
